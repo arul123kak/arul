@@ -1,11 +1,11 @@
 #include<stdio.h>
 void main()
 {
-int a[50],i,n,max;
+int a[50],i,b,max;
 printf("enter the range");
-scanf("%d",&n);
+scanf("%d",&b);
 printf("enter the array values");
-for(i=0;i<n;i++)
+for(i=0;i<b;i++)
 {
 scanf("%d",&a[i]);
 }
